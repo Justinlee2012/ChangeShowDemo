@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SecordViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITabBarItem *itemB;
 @property (weak, nonatomic) IBOutlet UIButton *signupBtn;
 @property (weak, nonatomic) IBOutlet UIButton *gobackBtn;
 

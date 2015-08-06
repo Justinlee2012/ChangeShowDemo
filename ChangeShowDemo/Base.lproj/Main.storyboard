@@ -34,7 +34,6 @@
                     <tabBarItem key="tabBarItem" title="" image="itemb.png" id="XXT-aO-LvJ"/>
                     <connections>
                         <outlet property="gobackBtn" destination="VEh-Dl-mHN" id="Y6e-6K-25z"/>
-                        <outlet property="itemB" destination="XXT-aO-LvJ" id="j0S-5a-wOD"/>
                         <outlet property="signupBtn" destination="nLn-bH-LIy" id="inf-cm-eQH"/>
                     </connections>
                 </viewController>
@@ -80,7 +79,6 @@
                     <connections>
                         <outlet property="downloadBtn" destination="XXx-lP-FBH" id="XIT-wP-Grp"/>
                         <outlet property="goBackBtn" destination="El6-Z0-tCe" id="gsE-VP-pZ6"/>
-                        <outlet property="itemA" destination="gcK-FK-taL" id="Bab-KG-jaH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jlv-XU-Zgj" userLabel="First Responder" sceneMemberID="firstResponder"/>

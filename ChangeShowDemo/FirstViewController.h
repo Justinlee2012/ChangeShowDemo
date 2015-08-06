@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITabBarItem *itemA;
 @property (weak, nonatomic) IBOutlet UIButton *downloadBtn;
 @property (weak, nonatomic) IBOutlet UIButton *goBackBtn;
 - (IBAction)ChangeShow:(id)sender;

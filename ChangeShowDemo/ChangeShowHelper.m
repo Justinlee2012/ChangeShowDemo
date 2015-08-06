@@ -29,7 +29,7 @@ static ChangeShowHelper *changeShowHelper=nil;
     return self;
 }
 
-//感觉通过配置文件的方式去存储会更灵活一些。
+//感觉通过配置文件的方式去存储会更灵活一些。返回一张图片
 -(UIImage *)changeShowImageName:(NSString *)imgName andObj:(id)obj{
     if (!imgName || [imgName isEqualToString:@""]) {
         return nil;
@@ -51,7 +51,7 @@ static ChangeShowHelper *changeShowHelper=nil;
         i++;
     }
     
-    //返回保存img对象的
+//返回保存img对象的
 //    if([self.showTypeDic objectForKey:imagekey(imgName)]){
 //        img =[self.showTypeDic objectForKey:imagekey(imgName)];
 //    }
@@ -69,6 +69,7 @@ static ChangeShowHelper *changeShowHelper=nil;
     return img;
 }
 
+//换皮肤
 -(void)changeShow:(NSString *)showType{
     if (!showType || [showType isEqualToString:@""]) {
         return;
